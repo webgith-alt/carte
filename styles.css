@@ -16,7 +16,7 @@ body {
   background: no-repeat url("img/chalkboard.jpg");
 }
 .marge {
-margin-left: 5em;
+float: right;
 }
 h1 {
 font-family: "Open Sans Serif";
