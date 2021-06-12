@@ -7,24 +7,35 @@ html {
 
 font-family: "chalky";
   src: url("chalky.ttf") format("truetype");
-  -webkit-text-size-adjust: 100%;
+font-weight: bold;  
+-webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
   background-color: lightred;
   background: no-repeat url("img/chalkboard.jpg");
 }
-
+.marge {
+margin-left: 5em;
+}
 h1 {
+font-family: "Open Sans Serif";
+font-weight: bold;
   color: red;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 20px;
 }
 
 h2 {
 font-family: "Open Sans Serif";
   color: green;
-  font-size: 40px;
+  font-size: 50px;
+  margin-left: 20px;
+}
+h3 {
+font-family: "Open Sans Serif";
+  color: yellow;
+  font-size: 50px;
   margin-left: 20px;
 }
 
